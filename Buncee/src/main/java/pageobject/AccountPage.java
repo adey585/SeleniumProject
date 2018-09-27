@@ -12,3 +12,5 @@ public class AccountPage {
     public static String profileLogoXPath = "//*[@id=\"header-profile-image\"]";
     public static String logoutLinkXPath = "//*[@id=\"reactjs-dashboard-generic\"]/div/div[1]/div[3]/div[4]/div[11]/a";
 }
+
+

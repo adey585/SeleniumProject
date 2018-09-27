@@ -22,7 +22,7 @@ public class AccountFeature extends SubBase {
         }
     }
 
-    @Test(enabled = false)
+    @Test(priority = 2, enabled = false)
     public void logout() throws InterruptedException {
         loginToAccount();
         logOutFromAccount();

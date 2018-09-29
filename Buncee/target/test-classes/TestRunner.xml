@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon App is running on Chrome Browser">
 
-    <parameter name="useSauceLab" value="false"/>
-    <parameter name="userName" value="mdalam"/>
-    <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+    <parameter name="useSauceLab" value="true"/>
+    <parameter name="userName" value="adey585"/>
+    <parameter name="key" value="6f5f88c1-0a59-476c-9091-c7256c23c932"/>
     <parameter name="appUrl" value="https://app.edu.buncee.com/"/>
     <parameter name="os" value="windows"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="45.0.2454.93"/>
+    <parameter name="browserVersion" value="65"/>
 
     <test name="Home Page">
         <classes>
